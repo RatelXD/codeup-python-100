@@ -1,5 +1,5 @@
 a, b = 0, 0
-a_list=[2, 6, 10, 14, ]
+# a_list=[2, 6, 10, 14, ]
 while(True): 
     while(True):
         for i in range (2, 31, 4):
@@ -8,7 +8,7 @@ while(True):
             print(i, end=' ')
         
         print("\nA 입력: ", end='')
-        a_tmp = int(input())
+        a_tmp = int(input()) # a_tmp에 임시값을 넣고 조건 충족되면 a로 대입
         if a_tmp>b and a_tmp <= b+3 and a_tmp<=30:
             a = a_tmp
             print(a)
@@ -39,24 +39,6 @@ while(True):
         
 
 # a_list안에 2~30까지 4의 배수의 리스트를 만들어서 b보다 큰 원소만 출력되게하는 방법
-# 2~30까지 중 b보다 큰 값만 출력되게
+# 2~30까지 중 b보다 큰 2의 4의 배수값만 출력되게
 
 
-# a, b = 0, 0
-# while(True): 
-#     if a>b and a <= b+3:
-#         a = int(input())
-#         print(a)
-#         if a==30:
-#             print("A 승리")
-#             break
-#     else:
-#         print("잘못입력했습니다.")
-#     if b>a and b <= a+3:
-#         b = int(input())
-#         print(b)
-#         if b==30:
-#             print("B 승리")
-#             break
-#     else:
-#         print("잘못입력했습니다.")
